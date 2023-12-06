@@ -16,24 +16,8 @@
             "hash": "9d6f1b945bd0a61c4e22d794b2add8bf254bffc2a8307f4c3f9a180d2e150622"
         }
     },
-    "bin": [
-        "wc3270.exe",
-        "wc3270wiz.exe",
-        "ws3270.exe",
-        "catf.exe",
-        "x3270if.exe",
-        "wpr3287.exe",
-        "pr3287.exe"
-    ],
-    "shortcuts": [
-        [
-            "wc3270.exe",
-            "wc3270"
-        ],
-        [
-            "wc3270wiz.exe",
-            "wc3270 Session Wizard"
-        ]
+    "env_add_path": [
+        "."
     ],
     "checkver": {
         "url": "https://x3270.miraheze.org/wiki/Downloads",
