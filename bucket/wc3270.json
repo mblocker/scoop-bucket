@@ -1,5 +1,5 @@
 {
-    "version": "4.3ga4",
+    "version": "4.3ga6",
     "description": "The Windows console version of x3270, an IBM 3270 terminal emulator for the X Window System and Windows.",
     "homepage": "http://x3270.bgp.nu/",
     "license": {
@@ -8,17 +8,15 @@
     },
     "architecture": {
         "64bit": {
-            "url": "http://x3270.bgp.nu/download/04.03/wc3270-4.3ga4-noinstall-64.zip",
-            "hash": "730b56c2581f4b2583fa0e78c406d6f3d509ae766d0a9aa5eb84e3de03387d8d"
+            "url": "http://x3270.bgp.nu/download/04.03/wc3270-4.3ga6-noinstall-64.zip",
+            "hash": "92558c0688543e36895b2db78b98a33937e6eecc94e462bba33550e9668effca"
         },
         "32bit": {
-            "url": "http://x3270.bgp.nu/download/04.03/wc3270-4.3ga4-noinstall-32.zip",
-            "hash": "9d6f1b945bd0a61c4e22d794b2add8bf254bffc2a8307f4c3f9a180d2e150622"
+            "url": "http://x3270.bgp.nu/download/04.03/wc3270-4.3ga6-noinstall-32.zip",
+            "hash": "536f5c0282e222c192ac1cff74506605f9d692a0a62bfb08a4575cdd2054085a"
         }
     },
-    "env_add_path": [
-        "."
-    ],
+    "env_add_path": ".",
     "checkver": {
         "url": "https://x3270.miraheze.org/wiki/Downloads",
         "regex": "wc3270-([\\d\\w.]+)-noinstall-64.zip"
