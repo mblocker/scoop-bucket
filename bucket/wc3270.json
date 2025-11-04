@@ -37,15 +37,15 @@
     ],
     "checkver": {
         "url": "https://x3270.miraheze.org/wiki/Downloads",
-        "regex": "wc3270-([\\d\\w.]+)-noinstall-64.zip"
+        "regex": "download/(?<majorver>[\\d.]+)/wc3270-([\\d\\w.]+)-noinstall-64.zip"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "http://x3270.bgp.nu/download/04.03/wc3270-$version-noinstall-64.zip"
+                "url": "http://x3270.bgp.nu/download/$majorver/wc3270-$version-noinstall-64.zip"
             },
             "32bit": {
-                "url": "http://x3270.bgp.nu/download/04.03/wc3270-$version-noinstall-32.zip"
+                "url": "http://x3270.bgp.nu/download/$majorver/wc3270-$version-noinstall-32.zip"
             }
         }
     }
